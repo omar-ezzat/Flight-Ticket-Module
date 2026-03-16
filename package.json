@@ -1,0 +1,26 @@
+{
+  "name": "flight-ticket-module-mearn-r2",
+  "version": "1.0.0",
+  "description": "first flight ticket UMD module ",
+  "keywords": [
+    "flight",
+    "reservation-flight",
+    "flight-ticket",
+    "passenger"
+  ],
+  "homepage": "https://github.com/omar-ezzat/Flight-Ticket-Module#readme",
+  "bugs": {
+    "url": "https://github.com/omar-ezzat/Flight-Ticket-Module/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omar-ezzat/Flight-Ticket-Module.git"
+  },
+  "license": "ISC",
+  "author": "Omar Ezzat",
+  "type": "commonjs",
+  "main": "flight.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
