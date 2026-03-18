@@ -60,15 +60,9 @@ const FlightTicket = require("flight-ticket-module-mearn-r2");
 
 const ticket = new FlightTicket();
 
-ticket.createTicket({
-  ticketId: "T1001",
-  flightNumber: "MS202",
-  seatNumber: "10A",
-  departureAirport: "Cairo",
-  arrivalAirport: "Dubai",
-  travelDate: "2026-06-10",
-  passengerName: "Omar Ezzat"
-});
+ticket.createTicket(
+ "T1001", "MS202","10A", "Cairo", "Dubai", "2026-06-10","Omar Ezzat"
+);
 
 console.log(ticket.displayTicket());
 
@@ -91,14 +85,8 @@ console.log(ticket.displayTicket());
 <script>
   const ticket = new FlightTicket();
 
-  ticket.createTicket({
-    ticketId: "T1002",
-    flightNumber: "EK202",
-    seatNumber: "15B",
-    departureAirport: "Cairo",
-    arrivalAirport: "London",
-    travelDate: "2026-07-15",
-    passengerName: "Omar Ezzat"
+  ticket.createTicket(
+    "T1002", "EK202","15B", "Cairo", "London", "2026-07-15", "Omar Ezzat"
   });
 
   console.log(ticket.displayTicket());
